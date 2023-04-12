@@ -1,10 +1,16 @@
 ---
 layout: post
-title:  "Week #14 2023 - Code Documentation"
-date:   2023-04-07 20:00:00 +0700
+week: 14
+title: Code Documentation
+date: 2023-04-07 20:00:00 +0700
+bannerTopUrl: 2023/14_top.png
+bannerUrl: 2023/14.png
+briefDescription:
+introduction:
+keywords:
 ---
 
-## Code Documentation
+{% include post-header.html %}
 
 In the world of software development, code documentation is often considered a crucial aspect of creating and maintaining high-quality code. Well-documented code saves time, reduces technical debt, and eases the onboarding process for new team members. It enables developers to understand the purpose and functionality of the code more efficiently, leading to fewer errors and smoother collaboration.
 
@@ -16,25 +22,25 @@ Another argument against code documentation is the belief that the code should b
 
 Additionally, some developers may have had negative experiences with outdated or misleading documentation, leading them to question its value. 
 
-__"Lack of time"__
+## "Lack of time"
 
 While it's true that documenting code can consume time and effort, the long-term benefits far outweigh the initial investment. Proper documentation helps developers understand the code faster, reducing the time spent debugging and making modifications.
 
 It also helps new team members get up to speed quickly, which can be especially important in larger or rapidly evolving projects. In the long run, well-documented code can save time and resources, ultimately leading to more efficient development cycles and higher-quality software.
 
-__"Code should be self-documenting"__
+## "Code should be self-documenting"
 
 Although striving for self-documenting code is a worthy goal, relying solely on it can be insufficient. Self-documenting code typically only addresses the "how" of the code but may not provide insights into the "why" behind specific design decisions or the intended behavior of a complex system.
 
 Code documentation complements self-documenting code by providing context and rationale, making it easier for developers to understand the bigger picture and maintain the code effectively.
 
-__"Outdated or misleading documentation"__
+## "Outdated or misleading documentation"
 
 The problem of outdated or misleading documentation highlights the need for a disciplined approach to maintaining and updating documentation as the code evolves. By adopting best practices like treating documentation as an integral part of the development process and using tools like version control and automated documentation generators, developers can ensure that their documentation remains accurate and up-to-date.
 
 Establishing a culture of documentation within a development team can also encourage individual developers to take ownership of documentation and actively update it alongside their code changes.
 
-__The balance between "too much" and "too little"__
+## The balance between "too much" and "too little"
 
 Striking the right balance between too much and too little documentation is essential for maintaining code readability and effectiveness. Here's a brief guide on how to achieve that balance:
 
@@ -45,7 +51,7 @@ Striking the right balance between too much and too little documentation is esse
 5. **Keep documentation up to date**: As your code evolves, ensure that your documentation remains accurate and current. Regularly review and update your documentation to reflect any changes or new features. It will help prevent outdated or misleading documentation from burdening your project.
 6. **Embrace a culture of documentation**: Encourage everyone on your team to take responsibility for creating and maintaining documentation. By fostering a collective mindset around the importance of documentation, you'll help ensure that your team finds the right balance between too much and too little documentation. 
 
-__The components__
+## The components
 
 While the components for code documentation may vary depending on the project requirements or the organization's culture, these are some ideas that you can include to create clear and efficient documentation:
 
@@ -60,7 +66,7 @@ While the components for code documentation may vary depending on the project re
 9. **Contribution guidelines**: If your project is open-source or accepting contributions from external developers, provide clear instructions on how to contribute, including coding standards, testing requirements, and the process for submitting changes or reporting issues.
 10. **License and copyright information**: Include information about the license under which the code is distributed, as well as any copyright or attribution requirements. 
 
-__Where should I put the docs?__
+## Where should I put the docs?
 
 One of the best practices for code documentation is to keep it as close to the code as possible. It makes it easier for developers to find the necessary information when working with the code. For example, inline comments and function or module-level documentation should be placed directly within the source code files.
 
@@ -71,23 +77,51 @@ For more extensive documentation, such as API documentation or user guides, crea
 It's also crucial to make documentation accessible to all stakeholders involved in the project, including developers, project managers, testers, and end-users. It means ensuring that the documentation is written in clear, concise language that is easy to understand, even for non-technical stakeholders.
 
 ## Tech News
+{: .news-title }
 
-![memo](/assets/images/memo16.png) *[NVIDIA Picasso: Generative AI Visual Applications](https://www.nvidia.com/en-us/gpu-cloud/picasso/)*
+![memo](/assets/images/tech-news.svg)
+{: .news-logo }
 
-Aris: "NVIDIA Picasso is a cloud service for building generative AI-powered visual applications. It opens new worlds of possibilities. Differentiate your application with custom generative AI models. Three main features are currently available: Text-to-Image, Text-to-Video, and Text-to-3D."
+[NVIDIA Picasso: Generative AI Visual Applications](https://www.nvidia.com/en-us/gpu-cloud/picasso/)
+{: .news-url }
 
-![memo](/assets/images/memo16.png) *[Microsoft brings GPT-4-powered Security Copilot to incident response](https://www.bleepingcomputer.com/news/microsoft/microsoft-brings-gpt-4-powered-security-copilot-to-incident-response/)*
+__Aris:__ "NVIDIA Picasso is a cloud service for building generative AI-powered visual applications. It opens new worlds of possibilities. Differentiate your application with custom generative AI models. Three main features are currently available: Text-to-Image, Text-to-Video, and Text-to-3D."
+{: .news-info }
 
-Yoga: "Microsoft has announced a new AI-powered security analysis tool called Security Copilot, which uses a ChatGPT-like interface to assist security analysts in making faster decisions during incident response and threat hunting. It also integrates data and insights from other Microsoft security tools to provide custom guidance for each organization. While the tool is currently in private preview, Microsoft has not yet announced details regarding its public rollout."
+![memo](/assets/images/tech-news.svg)
+{: .news-logo }
 
-![memo](/assets/images/memo16.png) *[Twitter's Recommendation Algorithm](https://blog.twitter.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm)*
+[Microsoft brings GPT-4-powered Security Copilot to incident response](https://www.bleepingcomputer.com/news/microsoft/microsoft-brings-gpt-4-powered-security-copilot-to-incident-response/)
+{: .news-url }
 
-Brain: "Twitter's recent decision to open source the algorithm for curating the "For you" feed has sparked intriguing discussions regarding the platform's use of hard-coded elements, such as Elon Musk's name. However, this move exemplifies the potential of open source technology, enabling technical scrutiny and ethical review from a vast network of software developers."
+__Yoga:__ "Microsoft has announced a new AI-powered security analysis tool called Security Copilot, which uses a ChatGPT-like interface to assist security analysts in making faster decisions during incident response and threat hunting. It also integrates data and insights from other Microsoft security tools to provide custom guidance for each organization. While the tool is currently in private preview, Microsoft has not yet announced details regarding its public rollout."
+{: .news-info }
 
-![memo](/assets/images/memo16.png) *[Build a .NET API in 3 Minutes with ChatGPT](https://medium.com/bytehide/dotnet-api-with-chat-gpt-98593f87028a)*
+![memo](/assets/images/tech-news.svg)
+{: .news-logo }
 
-Dika: "In this interesting article, the author tried to utilize ChatGPT to create Rest API in C# in less than 3 minutes. The subject is managing a workout routine. In the first step, he asks it to create a Rest API related to his topic, and then in the second step, he asks it to add related properties and then database schema. In the last step, he asks it to create an example code to call the API. That inspires other people to create useful things using ChatGPT relatively quickly."
+[Twitter's Recommendation Algorithm](https://blog.twitter.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm)
+{: .news-url }
 
-![memo](/assets/images/memo16.png) *[Microsoft Edge launches Workspaces test that lets us share browser tabs](https://www.theverge.com/2023/4/5/23671661/microsoft-edge-workspaces-test-browser-tabs-share)*
+__Brain:__ "Twitter's recent decision to open source the algorithm for curating the "For you" feed has sparked intriguing discussions regarding the platform's use of hard-coded elements, such as Elon Musk's name. However, this move exemplifies the potential of open source technology, enabling technical scrutiny and ethical review from a vast network of software developers."
+{: .news-info }
 
-Rizqun: "Microsoft's Edge browser has launched a limited public preview of its Workspaces feature, allowing users to save and share browser tabs using a single link. The feature enables users to group tabs on a specific topic into neatly labeled sets within the browser and share them with colleagues in real-time. The new feature does not share private information with others, including passwords, downloads, collections, extensions, or cookies."
+![memo](/assets/images/tech-news.svg)
+{: .news-logo }
+
+[Build a .NET API in 3 Minutes with ChatGPT](https://medium.com/bytehide/dotnet-api-with-chat-gpt-98593f87028a)
+{: .news-url }
+
+__Dika:__ "In this interesting article, the author tried to utilize ChatGPT to create Rest API in C# in less than 3 minutes. The subject is managing a workout routine. In the first step, he asks it to create a Rest API related to his topic, and then in the second step, he asks it to add related properties and then database schema. In the last step, he asks it to create an example code to call the API. That inspires other people to create useful things using ChatGPT relatively quickly."
+{: .news-info }
+
+![memo](/assets/images/tech-news.svg)
+{: .news-logo }
+
+[Microsoft Edge launches Workspaces test that lets us share browser tabs](https://www.theverge.com/2023/4/5/23671661/microsoft-edge-workspaces-test-browser-tabs-share)
+{: .news-url }
+
+__Rizqun:__ "Microsoft's Edge browser has launched a limited public preview of its Workspaces feature, allowing users to save and share browser tabs using a single link. The feature enables users to group tabs on a specific topic into neatly labeled sets within the browser and share them with colleagues in real-time. The new feature does not share private information with others, including passwords, downloads, collections, extensions, or cookies."
+{: .news-info }
+
+{% include post-suggested.html %}

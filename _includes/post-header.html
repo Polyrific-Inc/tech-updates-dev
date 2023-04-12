@@ -12,9 +12,9 @@ Week #{{ page.week | append: ' · ' | append: postDate }}
 {% endif %}
 
 {% if page.bannerUrl %}
-  {% assign bannerUrl = "/assets/images/" | append: page.bannerUrl %}
+  {% assign bannerUrl = "/assets/images/banners/" | append: page.bannerUrl %}
 {% else %}
-  {% assign bannerUrl = "/assets/images/banner_default.png" %}
+  {% assign bannerUrl = "/assets/images/banners/default.png" %}
 {% endif %}
 
 ![memo]({{ bannerUrl }})

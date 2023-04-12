@@ -3,7 +3,8 @@ layout: post
 week: 9
 title: Modular Monolith Architecture
 date: 2023-03-03 20:00:00 +0700
-bannerUrl: banner_default.png
+bannerTopUrl: 
+bannerUrl: 2023/9.png
 briefDescription: 
 introduction:
 keywords:

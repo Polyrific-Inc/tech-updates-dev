@@ -1,10 +1,16 @@
 ---
 layout: post
-title:  "Week #12 2023 - GDPR, CCPA, and Other Data Privacy Regulations"
-date:   2023-03-24 20:00:00 +0700
+week: 12
+title: GDPR, CCPA, and Other Data Privacy Regulations
+date: 2023-03-24 20:00:00 +0700
+bannerTopUrl: 
+bannerUrl: 2023/12.png
+briefDescription:
+introduction:
+keywords:
 ---
 
-## GDPR, CCPA, and Other Data Privacy Regulations
+{% include post-header.html %}
 
 Data has become an invaluable asset for businesses across various industries in the digital age. Companies collect, store, process, and analyze vast amounts of personal information to improve their operations, develop new products and services, and deliver personalized customer experiences. However, this increased reliance on data comes with significant responsibilities and risks. Data privacy regulations have emerged to protect the rights of individuals and ensure that businesses handle personal information securely, responsibly, and transparently.
 
@@ -71,23 +77,51 @@ In addition to the GDPR and CCPA, various countries and regions have enacted the
 As data privacy concerns continue growing globally, more countries are likely to enact or update their privacy regulations. It is crucial for businesses to stay informed about the data privacy laws applicable to their operations and ensure compliance with the relevant regulations. 
 
 ## Tech News
+{: .news-title }
 
-![memo](/assets/images/memo16.png) *[The Age of AI has begun](https://www.gatesnotes.com/The-Age-of-AI-Has-Begun)*
+![memo](/assets/images/tech-news.svg)
+{: .news-logo }
 
-Matt: "The race really is on. I have been telling everyone around me that we are suddenly in a season of immense change. Buckle up, everybody!"
+[The Age of AI has begun](https://www.gatesnotes.com/The-Age-of-AI-Has-Begun)
+{: .news-url }
 
-![memo](/assets/images/memo16.png) *[Discord hops the generative AI train with ChatGPT-style tools](https://discord.com/blog/ai-on-discord-your-place-for-ai-with-friends)*
+__Matt:__ "The race really is on. I have been telling everyone around me that we are suddenly in a season of immense change. Buckle up, everybody!"
+{: .news-info }
 
-Yoga: "Discord upgrades chatbot Clyde with AI-powered features developed in collaboration with OpenAI, allowing it to answer questions, engage in conversations, and recommend playlists. The company also plans to open source its Avatar Remix feature, enabling friends to visually change each other's avatars in real-time."
+![memo](/assets/images/tech-news.svg)
+{: .news-logo }
 
-![memo](/assets/images/memo16.png) *[GitHub Copilot X: The AI-powered developer experience](https://github.blog/2023-03-22-github-copilot-x-the-ai-powered-developer-experience/)*
+[Discord hops the generative AI train with ChatGPT-style tools](https://discord.com/blog/ai-on-discord-your-place-for-ai-with-friends)
+{: .news-url }
 
-Brain: "GitHub just announced their next plan on the AI developer tools. GitHub Copilot X would be a better version of the current Github Copilot that utilizes their latest AI technologies, like GPT-4. It also has new features like allowing you to have a ChatGPT-like experience, so you can consult your coding problem with AI. Lastly, it allows you to ask for specific technical documentation on the internet, as well as your own enterprise documentation."
+__Yoga:__ "Discord upgrades chatbot Clyde with AI-powered features developed in collaboration with OpenAI, allowing it to answer questions, engage in conversations, and recommend playlists. The company also plans to open source its Avatar Remix feature, enabling friends to visually change each other's avatars in real-time."
+{: .news-info }
 
-![memo](/assets/images/memo16.png) *[Secret scanning is now available for all public repository in Github](https://github.blog/changelog/2023-02-28-enable-secret-scanning-alerts-on-all-your-public-repositories/)*
+![memo](/assets/images/tech-news.svg)
+{: .news-logo }
 
-Rizqun: "Secret scanning was previously available on individual public repositories or all public repositories within an organization or cloud enterprise. But now, the secret scanning feature is also available for personal public repositories. Users will receive an alert when Github finds credentials in the repository by activating secret scanning through the settings. If the user owns GitHub Enterprise, the user can also add a custom pattern that can be detected as credentials and enable push scanning that will detect the credentials before a push to Github is successfully executed."
+[GitHub Copilot X: The AI-powered developer experience](https://github.blog/2023-03-22-github-copilot-x-the-ai-powered-developer-experience/)
+{: .news-url }
 
-![memo](/assets/images/memo16.png) *[Introducing the Reliable Web App Pattern for .NET](https://devblogs.microsoft.com/dotnet/introducing-the-reliable-web-app-pattern/)*
+__Brain:__ "GitHub just announced their next plan on the AI developer tools. GitHub Copilot X would be a better version of the current Github Copilot that utilizes their latest AI technologies, like GPT-4. It also has new features like allowing you to have a ChatGPT-like experience, so you can consult your coding problem with AI. Lastly, it allows you to ask for specific technical documentation on the internet, as well as your own enterprise documentation."
+{: .news-info }
 
-Frandi: "The Reliable Web App Pattern is a set of best practices built on the Azure Well-Architected Framework that can be made as guidance for developers when building .NET applications. It's a good checklist to shape your application architecture."
+![memo](/assets/images/tech-news.svg)
+{: .news-logo }
+
+[Secret scanning is now available for all public repository in Github](https://github.blog/changelog/2023-02-28-enable-secret-scanning-alerts-on-all-your-public-repositories/)
+{: .news-url }
+
+__Rizqun:__ "Secret scanning was previously available on individual public repositories or all public repositories within an organization or cloud enterprise. But now, the secret scanning feature is also available for personal public repositories. Users will receive an alert when Github finds credentials in the repository by activating secret scanning through the settings. If the user owns GitHub Enterprise, the user can also add a custom pattern that can be detected as credentials and enable push scanning that will detect the credentials before a push to Github is successfully executed."
+{: .news-info }
+
+![memo](/assets/images/tech-news.svg)
+{: .news-logo }
+
+[Introducing the Reliable Web App Pattern for .NET](https://devblogs.microsoft.com/dotnet/introducing-the-reliable-web-app-pattern/)
+{: .news-url }
+
+__Frandi:__ "The Reliable Web App Pattern is a set of best practices built on the Azure Well-Architected Framework that can be made as guidance for developers when building .NET applications. It's a good checklist to shape your application architecture."
+{: .news-info }
+
+{% include post-suggested.html %}

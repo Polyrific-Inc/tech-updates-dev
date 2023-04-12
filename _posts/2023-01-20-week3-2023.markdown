@@ -3,7 +3,8 @@ layout: post
 week: 3
 title: Cybersecurity Mesh Architecture
 date: 2023-01-20 20:00:00 +0700
-bannerUrl: banner_default.png
+bannerTopUrl: 
+bannerUrl: 2023/3.png
 briefDescription: 
 introduction:
 keywords:

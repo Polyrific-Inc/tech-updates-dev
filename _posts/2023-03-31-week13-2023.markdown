@@ -1,10 +1,16 @@
 ---
 layout: post
-title:  "Week #13 2023 - OpenAPI"
-date:   2023-03-31 20:00:00 +0700
+week: 13
+title: OpenAPI
+date: 2023-03-31 20:00:00 +0700
+bannerTopUrl: 
+bannerUrl: 2023/13.png
+briefDescription:
+introduction:
+keywords:
 ---
 
-## OpenAPI
+{% include post-header.html %}
 
 OpenAPI, formerly known as Swagger, is a widely-adopted specification for designing, building and documenting RESTful APIs. Created by Tony Tam in 2011 and later donated to the OpenAPI Initiative in 2015, OpenAPI has become an industry standard for API development.
 
@@ -14,7 +20,7 @@ As the API ecosystem has evolved, OpenAPI has emerged as a key player, with many
 
 Through collaboration and community-driven efforts, OpenAPI has become an essential tool for organizations building scalable, robust, and maintainable APIs. Its popularity has led to the creation of a vast ecosystem of tools and libraries that simplify the API lifecycle, from design and documentation to testing and implementation.
 
-__Why OpenAPI is Important to the Industry__
+## Why OpenAPI is Important to the Industry
 
 OpenAPI holds significant importance in the technology industry because it can streamline API development and enhance system interoperability. As organizations increasingly adopt API-driven development and microservices architectures, standardized API design becomes crucial for maintaining and scaling their applications. OpenAPI addresses this need by providing a well-defined, structured approach to designing, building, and documenting APIs.
 
@@ -28,7 +34,7 @@ The benefits of adopting OpenAPI in API development include the following:
 6. **Code Generation**: With OpenAPI, developers can automatically generate client libraries and server stubs in various programming languages, saving time and reducing the likelihood of errors. It ensures the API's implementation aligns with its specification and promotes a consistent developer experience across platforms.
 7. **Enhanced Collaboration**: OpenAPI fosters better collaboration between API developers, consumers, and other stakeholders by providing a common language and format for describing APIs. This shared understanding helps bridge communication gaps and enables teams to work more efficiently.
 
-__The Key Components__
+## The Key Components
 
 In an OpenAPI document, several components work together to define the structure and functionality of an API. Here's a high-level overview of each of them:
 
@@ -40,7 +46,7 @@ In an OpenAPI document, several components work together to define the structure
 6. **Tags**: Tags are used to categorize and group related API operations, making it easier for developers and consumers to navigate and understand the API's structure. They can also be used to generate more organized documentation.
 7. **Components**: The components section of an OpenAPI document allows developers to define reusable elements, such as schemas, security schemes, and response templates, which can be referenced throughout the document. It encourages modularity and reduces duplication, resulting in a more maintainable API definition.
 
-__Best Practices__
+## Best Practices
 
 These are some best practices that are believed to make your API implementation better:
 
@@ -52,52 +58,71 @@ These are some best practices that are believed to make your API implementation 
 
 By adopting these practices, developers can create APIs that are not only easier to work with but also more robust, maintainable, and scalable, ensuring a high-quality experience for both API providers and consumers.
 
-__The Tools__
+## The Tools
 
 Various tools are available for working with OpenAPI, catering to different aspects of the API lifecycle. Here is a list of some popular tools in each category:
 1. Design and Editing
-
-- [Swagger Editor](https://editor.swagger.io/): It's a browser-based editor for designing and editing OpenAPI documents, providing real-time validation, syntax highlighting, and auto-completion.
-- [Stoplight Studio](https://stoplight.io/studio): It's a desktop application for designing, documenting, and testing APIs using OpenAPI. It offers a visual interface and version control integration.
-
+  - [Swagger Editor](https://editor.swagger.io/): It's a browser-based editor for designing and editing OpenAPI documents, providing real-time validation, syntax highlighting, and auto-completion.
+  - [Stoplight Studio](https://stoplight.io/studio): It's a desktop application for designing, documenting, and testing APIs using OpenAPI. It offers a visual interface and version control integration.
 2. Documentation
-
-- [Swagger UI](https://swagger.io/tools/swagger-ui/): A customizable, interactive tool for visualizing and exploring APIs based on OpenAPI documents, allowing developers and consumers to interact with the API directly from the documentation.
-- [ReDoc](https://redocly.com/redoc/): A responsive, customizable, and easy-to-integrate documentation generator for OpenAPI documents, offering a clean and modern user interface.
-
+  - [Swagger UI](https://swagger.io/tools/swagger-ui/): A customizable, interactive tool for visualizing and exploring APIs based on OpenAPI documents, allowing developers and consumers to interact with the API directly from the documentation.
+  - [ReDoc](https://redocly.com/redoc/): A responsive, customizable, and easy-to-integrate documentation generator for OpenAPI documents, offering a clean and modern user interface.
 3. Code Generation
-
-- [Swagger Codegen](https://swagger.io/tools/swagger-codegen/): A versatile code generator for creating client libraries, server stubs, and API documentation in various programming languages from OpenAPI documents.
-- [OpenAPI Generator](https://openapi-generator.tech/): It's a community-driven alternative to Swagger Codegen, offering additional features, templates, and language support.
-
+  - [Swagger Codegen](https://swagger.io/tools/swagger-codegen/): A versatile code generator for creating client libraries, server stubs, and API documentation in various programming languages from OpenAPI documents.
+  - [OpenAPI Generator](https://openapi-generator.tech/): It's a community-driven alternative to Swagger Codegen, offering additional features, templates, and language support.
 4. Validation and Testing
-
-- [Spectral](https://stoplight.io/open-source/spectral): A flexible, customizable linter for OpenAPI documents, ensuring that your API definitions adhere to best practices and custom rules.
-- [Dredd](https://dredd.org/): A language-agnostic HTTP API testing tool that validates whether your API implementation matches its OpenAPI document.
-
+  - [Spectral](https://stoplight.io/open-source/spectral): A flexible, customizable linter for OpenAPI documents, ensuring that your API definitions adhere to best practices and custom rules.
+  - [Dredd](https://dredd.org/): A language-agnostic HTTP API testing tool that validates whether your API implementation matches its OpenAPI document.
 5. API Management and Gateway Integration
-
-- [Kong](https://konghq.com/): An open-source API gateway and platform that supports importing OpenAPI documents for configuring and managing API routes, security, and more.
-- [AWS API Gateway](https://aws.amazon.com/api-gateway/): A fully managed service from Amazon Web Services that allows you to create, publish, and manage APIs, with support for importing OpenAPI definitions for API configuration.
+  - [Kong](https://konghq.com/): An open-source API gateway and platform that supports importing OpenAPI documents for configuring and managing API routes, security, and more.
+  - [AWS API Gateway](https://aws.amazon.com/api-gateway/): A fully managed service from Amazon Web Services that allows you to create, publish, and manage APIs, with support for importing OpenAPI definitions for API configuration.
 
 ## Tech News
+{: .news-title }
 
-![memo](/assets/images/memo16.png) *[Malicious ChatGPT Chrome Extension Hijacks Facebook Accounts](https://www.infosecurity-magazine.com/news/malicious-chatgpt-chrome-hijacks)*
+![memo](/assets/images/tech-news.svg)
+{: .news-logo }
 
-Yoga: "Security researchers have warned of a new security threat involving a malicious Chrome extension that steals Facebook session cookies under the guise of the ChatGPT for Google extension. Users are directed to the extension through malicious sponsored search engine results, and once installed, the extension compromises their Facebook accounts, giving threat actors on-demand access to them. The extension had over 9,000 downloads before being removed by Google. It is the second FakeGPT extension discovered so far."
+[Malicious ChatGPT Chrome Extension Hijacks Facebook Accounts](https://www.infosecurity-magazine.com/news/malicious-chatgpt-chrome-hijacks)
+{: .news-url }
 
-![memo](/assets/images/memo16.png) *[WhatsApp takes on Zoom with eight-person video calls on new Windows app](https://www.techradar.com/news/whatsapp-takes-on-zoom-with-eight-person-video-calls-on-new-windows-app)*
+__Yoga:__ "Security researchers have warned of a new security threat involving a malicious Chrome extension that steals Facebook session cookies under the guise of the ChatGPT for Google extension. Users are directed to the extension through malicious sponsored search engine results, and once installed, the extension compromises their Facebook accounts, giving threat actors on-demand access to them. The extension had over 9,000 downloads before being removed by Google. It is the second FakeGPT extension discovered so far."
+{: .news-info }
 
-Dika:  "WhatsApp may soon become Zoom's next rival as it's currently rolling out a revamped Windows client adding eight-person video calls. Additionally, the desktop app will allow users to host audio calls with up to 32 people simultaneously."
+![memo](/assets/images/tech-news.svg)
+{: .news-logo }
 
-![memo](/assets/images/memo16.png) *[Zoom's new AI features help us catch up on meetings](https://www.theverge.com/2023/3/27/23658047/zoom-ai-features-meeting-summaries-mail-calendar)*
+[WhatsApp takes on Zoom with eight-person video calls on new Windows app](https://www.techradar.com/news/whatsapp-takes-on-zoom-with-eight-person-video-calls-on-new-windows-app)
+{: .news-url }
 
-Rizqun: "Zoom has partnered with OpenAI to expand its AI capabilities, allowing for features such as AI-generated summaries, message drafts, and whiteboards through its Zoom IQ AI-powered assistant. Zoom IQ will also provide recaps of meetings and the ability to summarize threads in Zoom Team Chat. Additionally, Zoom IQ will soon be able to generate responses to colleagues using AI. Zoom has also added new capabilities such as a Calendar and Mail app and a new feature called Huddles, a video-enabled virtual coworking space."
+__Dika:__  "WhatsApp may soon become Zoom's next rival as it's currently rolling out a revamped Windows client adding eight-person video calls. Additionally, the desktop app will allow users to host audio calls with up to 32 people simultaneously."
+{: .news-info }
 
-![memo](/assets/images/memo16.png) *[From gaming with your eyes to coding with AI: New frontiers for accessibility](https://github.com/readme/featured/open-source-accessibility)*
+![memo](/assets/images/tech-news.svg)
+{: .news-logo }
 
-Brain: "This is a heartwarming story of Becky Tyler, a programmer/gamer/YouTuber born with quadriplegic cerebral palsy. It's so great to hear technologies like eye tracking and AI is used to make life better for people with disabilities and would enable them not just to survive but also thrive in this life."
+[Zoom's new AI features help us catch up on meetings](https://www.theverge.com/2023/3/27/23658047/zoom-ai-features-meeting-summaries-mail-calendar)
+{: .news-url }
 
-![memo](/assets/images/memo16.png) *[Adding Conditional Control to Text-to-Image Diffusion Models](https://arxiv.org/abs/2302.05543)*
+__Rizqun:__ "Zoom has partnered with OpenAI to expand its AI capabilities, allowing for features such as AI-generated summaries, message drafts, and whiteboards through its Zoom IQ AI-powered assistant. Zoom IQ will also provide recaps of meetings and the ability to summarize threads in Zoom Team Chat. Additionally, Zoom IQ will soon be able to generate responses to colleagues using AI. Zoom has also added new capabilities such as a Calendar and Mail app and a new feature called Huddles, a video-enabled virtual coworking space."
+{: .news-info }
 
-Faris: "[ControlNet](https://github.com/lllyasviel/ControlNet) provides a way to control diffusion models, a type of generative model for images that can produce high-quality and diverse samples. ControlNet allows you to specify extra conditions that the diffusion model should follow, which can lead to more realistic and coherent images. It can generate new images based on existing images, even from a sketch."
+![memo](/assets/images/tech-news.svg)
+{: .news-logo }
+
+[From gaming with your eyes to coding with AI: New frontiers for accessibility](https://github.com/readme/featured/open-source-accessibility)
+{: .news-url }
+
+__Brain:__ "This is a heartwarming story of Becky Tyler, a programmer/gamer/YouTuber born with quadriplegic cerebral palsy. It's so great to hear technologies like eye tracking and AI is used to make life better for people with disabilities and would enable them not just to survive but also thrive in this life."
+{: .news-info }
+
+![memo](/assets/images/tech-news.svg)
+{: .news-logo }
+
+[Adding Conditional Control to Text-to-Image Diffusion Models](https://arxiv.org/abs/2302.05543)
+{: .news-url }
+
+__Faris:__ "[ControlNet](https://github.com/lllyasviel/ControlNet) provides a way to control diffusion models, a type of generative model for images that can produce high-quality and diverse samples. ControlNet allows you to specify extra conditions that the diffusion model should follow, which can lead to more realistic and coherent images. It can generate new images based on existing images, even from a sketch."
+{: .news-info }
+
+{% include post-suggested.html %}

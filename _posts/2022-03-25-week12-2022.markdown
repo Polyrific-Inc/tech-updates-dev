@@ -3,7 +3,8 @@ layout: post
 week: 12
 title:  "Application Logging"
 date: 2022-03-25 20:00:00 +0700
-bannerUrl: banner_default.png
+bannerTopUrl: 
+bannerUrl: 
 briefDescription: 
 introduction:
 keywords:
