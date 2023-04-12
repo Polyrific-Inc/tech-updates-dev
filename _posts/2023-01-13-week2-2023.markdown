@@ -3,7 +3,8 @@ layout: post
 week: 2
 title: Minimum Viable Architecture
 date: 2023-01-13 20:00:00 +0700
-bannerUrl: banner_default.png
+bannerTopUrl: 
+bannerUrl: 2023/2.png
 briefDescription: 
 introduction:
 keywords:

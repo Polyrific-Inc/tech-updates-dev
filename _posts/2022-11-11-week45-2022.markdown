@@ -3,7 +3,8 @@ layout: post
 week: 45
 title:  "Platform Team"
 date: 2022-11-11 20:00:00 +0700
-bannerUrl: banner_default.png
+bannerTopUrl: 
+bannerUrl: 
 briefDescription: 
 introduction:
 keywords:

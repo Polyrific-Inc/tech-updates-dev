@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
     for (var index = lastPage; index < untilPageIndex; index++) {
       var postImage = allPosts.bannerUrl[index];
       if (postImage === '') {
-        postImage = 'banner_default.png';
+        postImage = 'default.png';
       }
 
       var postUrl = allPosts.url[index];
@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
       var newDiv = "<a href='" + postUrl + "'> \
                       <div class='home-post'> \
                         <div class='home-post-image'> \
-                          <img src='/assets/images/" + postImage + "' alt='banner'> \
+                          <img src='/assets/images/banners/" + postImage + "' alt='banner'> \
                         </div> \
                         <div class='home-post-detail'> \
                           <div class='home-post-detail-header'>Week #" + postWeek + " · " + postDateFormat + "</div> \
